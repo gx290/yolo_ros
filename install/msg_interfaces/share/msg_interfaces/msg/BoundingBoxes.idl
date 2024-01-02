@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from msg_interfaces/msg/BoundingBoxes.msg
+// generated code does not contain a copyright notice
+
+#include "msg_interfaces/msg/BoundingBox.idl"
+
+module msg_interfaces {
+  module msg {
+    struct BoundingBoxes {
+      sequence<msg_interfaces::msg::BoundingBox> bounding_boxes;
+    };
+  };
+};

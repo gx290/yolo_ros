@@ -1,0 +1,51 @@
+[0.000000] (-) TimerEvent: {}
+[0.000205] (-) JobUnselected: {'identifier': 'yolov8'}
+[0.000254] (msg_interfaces) JobQueued: {'identifier': 'msg_interfaces', 'dependencies': OrderedDict()}
+[0.000286] (msg_interfaces) JobStarted: {'identifier': 'msg_interfaces'}
+[0.098985] (-) TimerEvent: {}
+[0.108227] (msg_interfaces) JobProgress: {'identifier': 'msg_interfaces', 'progress': 'cmake'}
+[0.108783] (msg_interfaces) JobProgress: {'identifier': 'msg_interfaces', 'progress': 'build'}
+[0.109925] (msg_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/guoxuan/lab/yolo_ros/build/msg_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/guoxuan/lab/yolo_ros/build/msg_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'guoxuan'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/guoxuan'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/guoxuan/lab/yolo_ros/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MAVEN_HOME', '/opt/maven/apache-maven-3.5.4'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1685'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=09b1cc38e0023155d858edfd6576d9f8'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'guoxuan'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'guoxuan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/guoxuan/miniconda3/condabin:/home/guoxuan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/lib/jvm/jdk1.7.0_80/bin:/opt/maven/apache-maven-3.5.4/bin'), ('SESSION_MANAGER', 'local/guoxuan-VirtualBox:@/tmp/.ICE-unix/1685,unix/guoxuan-VirtualBox:/tmp/.ICE-unix/1685'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d7242975_5d87_4c18_9f8d_a9e615f4f344'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MV52F2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.103'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/guoxuan/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/jdk1.7.0_80'), ('PWD', '/home/guoxuan/lab/yolo_ros/build/msg_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/guoxuan/miniconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=09b1cc38e0023155d858edfd6576d9f8'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.194384] (msg_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target msg_interfaces__rosidl_generator_c\x1b[0m\n'}
+[0.199346] (-) TimerEvent: {}
+[0.220959] (msg_interfaces) StdoutLine: {'line': b'[  2%] Built target msg_interfaces__cpp\n'}
+[0.233053] (msg_interfaces) StdoutLine: {'line': b'[ 12%] Built target msg_interfaces__rosidl_generator_c\n'}
+[0.233385] (msg_interfaces) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_msg_interfaces\n'}
+[0.245241] (msg_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target msg_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[0.248567] (msg_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target msg_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[0.253862] (msg_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target msg_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[0.270170] (msg_interfaces) StdoutLine: {'line': b'[ 23%] Built target msg_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.275162] (msg_interfaces) StdoutLine: {'line': b'[ 33%] Built target msg_interfaces__rosidl_typesupport_cpp\n'}
+[0.280833] (msg_interfaces) StdoutLine: {'line': b'[ 43%] Built target msg_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.294564] (msg_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target msg_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[0.298859] (msg_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target msg_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[0.299443] (-) TimerEvent: {}
+[0.302184] (msg_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target msg_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[0.312952] (msg_interfaces) StdoutLine: {'line': b'[ 53%] Built target msg_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.317984] (msg_interfaces) StdoutLine: {'line': b'[ 64%] Built target msg_interfaces__rosidl_typesupport_c\n'}
+[0.318713] (msg_interfaces) StdoutLine: {'line': b'[ 74%] Built target msg_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.352307] (msg_interfaces) StdoutLine: {'line': b'[ 74%] Built target msg_interfaces\n'}
+[0.387131] (msg_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[0.403046] (-) TimerEvent: {}
+[0.455678] (msg_interfaces) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[0.456190] (msg_interfaces) StderrLine: {'line': b'  File "/opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py", line 8, in <module>\n'}
+[0.456449] (msg_interfaces) StderrLine: {'line': b'    from rosidl_generator_py import generate_py\n'}
+[0.456561] (msg_interfaces) StderrLine: {'line': b"ImportError: cannot import name 'generate_py' from 'rosidl_generator_py' (/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/__init__.py)\n"}
+[0.465151] (msg_interfaces) StderrLine: {'line': b'gmake[2]: *** [msg_interfaces__py/CMakeFiles/msg_interfaces__py.dir/build.make:94: rosidl_generator_py/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c] Error 1\n'}
+[0.465428] (msg_interfaces) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:590: msg_interfaces__py/CMakeFiles/msg_interfaces__py.dir/all] Error 2\n'}
+[0.465514] (msg_interfaces) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[0.504130] (-) TimerEvent: {}
+[0.605947] (-) TimerEvent: {}
+[0.626195] (msg_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[0.627254] (msg_interfaces) StdoutLine: {'line': b'writing msg_interfaces.egg-info/PKG-INFO\n'}
+[0.627729] (msg_interfaces) StdoutLine: {'line': b'writing dependency_links to msg_interfaces.egg-info/dependency_links.txt\n'}
+[0.628150] (msg_interfaces) StdoutLine: {'line': b'writing top-level names to msg_interfaces.egg-info/top_level.txt\n'}
+[0.639012] (msg_interfaces) StdoutLine: {'line': b"reading manifest file 'msg_interfaces.egg-info/SOURCES.txt'\n"}
+[0.639247] (msg_interfaces) StdoutLine: {'line': b"writing manifest file 'msg_interfaces.egg-info/SOURCES.txt'\n"}
+[0.673305] (msg_interfaces) StdoutLine: {'line': b'[ 76%] Built target ament_cmake_python_build_msg_interfaces_egg\n'}
+[0.675294] (msg_interfaces) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[0.677374] (msg_interfaces) CommandEnded: {'returncode': 2}
+[0.706429] (-) TimerEvent: {}
+[0.807437] (-) TimerEvent: {}
+[0.863149] (msg_interfaces) JobEnded: {'identifier': 'msg_interfaces', 'rc': 2}
+[0.864876] (-) EventReactorShutdown: {}

@@ -1,0 +1,336 @@
+[0.000000] (-) TimerEvent: {}
+[0.000157] (msg_interfaces) JobQueued: {'identifier': 'msg_interfaces', 'dependencies': OrderedDict()}
+[0.000190] (yolov8) JobQueued: {'identifier': 'yolov8', 'dependencies': OrderedDict()}
+[0.000216] (msg_interfaces) JobStarted: {'identifier': 'msg_interfaces'}
+[0.096957] (yolov8) JobStarted: {'identifier': 'yolov8'}
+[0.098915] (-) TimerEvent: {}
+[0.199182] (-) TimerEvent: {}
+[0.205480] (msg_interfaces) JobProgress: {'identifier': 'msg_interfaces', 'progress': 'cmake'}
+[0.207645] (msg_interfaces) JobProgress: {'identifier': 'msg_interfaces', 'progress': 'build'}
+[0.207712] (msg_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/guoxuan/lab/yolo_ros/build/msg_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/guoxuan/lab/yolo_ros/build/msg_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'guoxuan'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/guoxuan/lab/yolo_ros/install/msg_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/guoxuan'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/guoxuan'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MAVEN_HOME', '/opt/maven/apache-maven-3.5.4'), ('SYSTEMD_EXEC_PID', '1738'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/guoxuan/lab/yolo_ros/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'guoxuan'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'guoxuan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/guoxuan/miniconda3/condabin:/home/guoxuan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/lib/jvm/jdk1.7.0_80/bin:/opt/maven/apache-maven-3.5.4/bin'), ('SESSION_MANAGER', 'local/guoxuan-VirtualBox:@/tmp/.ICE-unix/1716,unix/guoxuan-VirtualBox:/tmp/.ICE-unix/1716'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/febfae7c_0615_4c4c_9832_b1e51c02d944'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.K6ANF2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.105'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/guoxuan/lab/yolo_ros/install/yolov8:/home/guoxuan/lab/yolo_ros/install/msg_interfaces:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/guoxuan/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/jdk1.7.0_80'), ('PWD', '/home/guoxuan/lab/yolo_ros/build/msg_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/guoxuan/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/guoxuan/lab/yolo_ros/install/yolov8/lib/python3.10/site-packages:/home/guoxuan/lab/yolo_ros/install/msg_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/guoxuan/lab/yolo_ros/install/msg_interfaces:/home/guoxuan/lab/yolo_ros/install/yolov8:/opt/ros/humble')]), 'shell': False}
+[0.298505] (msg_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299293] (-) TimerEvent: {}
+[0.399607] (-) TimerEvent: {}
+[0.499960] (-) TimerEvent: {}
+[0.509697] (msg_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.600203] (-) TimerEvent: {}
+[0.605033] (msg_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.611766] (msg_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.621116] (msg_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.699363] (msg_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.700300] (-) TimerEvent: {}
+[0.800769] (-) TimerEvent: {}
+[0.901322] (-) TimerEvent: {}
+[0.999560] (msg_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.001453] (-) TimerEvent: {}
+[1.101743] (-) TimerEvent: {}
+[1.113296] (yolov8) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/yolov8', 'build', '--build-base', '/home/guoxuan/lab/yolo_ros/build/yolov8/build', 'install', '--record', '/home/guoxuan/lab/yolo_ros/build/yolov8/install.log', '--single-version-externally-managed'], 'cwd': '/home/guoxuan/lab/yolo_ros/src/yolov8', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'guoxuan', 'LC_TIME': 'zh_CN.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/guoxuan/lab/yolo_ros/install/msg_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/guoxuan', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/guoxuan', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'zh_CN.UTF-8', 'MAVEN_HOME': '/opt/maven/apache-maven-3.5.4', 'SYSTEMD_EXEC_PID': '1738', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/guoxuan/lab/yolo_ros/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'guoxuan', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'guoxuan', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/guoxuan/miniconda3/condabin:/home/guoxuan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/lib/jvm/jdk1.7.0_80/bin:/opt/maven/apache-maven-3.5.4/bin', 'SESSION_MANAGER': 'local/guoxuan-VirtualBox:@/tmp/.ICE-unix/1716,unix/guoxuan-VirtualBox:/tmp/.ICE-unix/1716', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'zh_CN.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/febfae7c_0615_4c4c_9832_b1e51c02d944', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.K6ANF2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.105', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/guoxuan/lab/yolo_ros/install/yolov8:/home/guoxuan/lab/yolo_ros/install/msg_interfaces:/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/guoxuan/miniconda3/bin/python', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'QT_IM_MODULE': 'ibus', 'JAVA_HOME': '/usr/lib/jvm/jdk1.7.0_80', 'PWD': '/home/guoxuan/lab/yolo_ros/build/yolov8', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/guoxuan/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/guoxuan/lab/yolo_ros/build/yolov8/prefix_override:/home/guoxuan/lab/yolo_ros/install/yolov8/lib/python3.10/site-packages:/home/guoxuan/lab/yolo_ros/install/yolov8/lib/python3.10/site-packages:/home/guoxuan/lab/yolo_ros/install/msg_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/guoxuan/lab/yolo_ros/install/msg_interfaces'}, 'shell': False}
+[1.202956] (-) TimerEvent: {}
+[1.218392] (msg_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.303139] (-) TimerEvent: {}
+[1.404835] (-) TimerEvent: {}
+[1.443335] (yolov8) StdoutLine: {'line': b'running egg_info\n'}
+[1.444760] (yolov8) StdoutLine: {'line': b'writing ../../build/yolov8/yolov8.egg-info/PKG-INFO\n'}
+[1.445993] (yolov8) StdoutLine: {'line': b'writing dependency_links to ../../build/yolov8/yolov8.egg-info/dependency_links.txt\n'}
+[1.446568] (yolov8) StdoutLine: {'line': b'writing entry points to ../../build/yolov8/yolov8.egg-info/entry_points.txt\n'}
+[1.447102] (yolov8) StdoutLine: {'line': b'writing requirements to ../../build/yolov8/yolov8.egg-info/requires.txt\n'}
+[1.447366] (yolov8) StdoutLine: {'line': b'writing top-level names to ../../build/yolov8/yolov8.egg-info/top_level.txt\n'}
+[1.450596] (yolov8) StdoutLine: {'line': b"reading manifest file '../../build/yolov8/yolov8.egg-info/SOURCES.txt'\n"}
+[1.451997] (yolov8) StdoutLine: {'line': b"writing manifest file '../../build/yolov8/yolov8.egg-info/SOURCES.txt'\n"}
+[1.452399] (yolov8) StdoutLine: {'line': b'running build\n'}
+[1.452528] (yolov8) StdoutLine: {'line': b'running build_py\n'}
+[1.453790] (yolov8) StdoutLine: {'line': b'copying yolov8/yolov8_node.py -> /home/guoxuan/lab/yolo_ros/build/yolov8/build/lib/yolov8\n'}
+[1.454363] (yolov8) StdoutLine: {'line': b'running install\n'}
+[1.455076] (yolov8) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.455229] (yolov8) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.455859] (yolov8) StdoutLine: {'line': b'running install_lib\n'}
+[1.459539] (yolov8) StdoutLine: {'line': b'copying /home/guoxuan/lab/yolo_ros/build/yolov8/build/lib/yolov8/yolov8_node.py -> /home/guoxuan/lab/yolo_ros/install/yolov8/lib/python3.10/site-packages/yolov8\n'}
+[1.461849] (yolov8) StdoutLine: {'line': b'byte-compiling /home/guoxuan/lab/yolo_ros/install/yolov8/lib/python3.10/site-packages/yolov8/yolov8_node.py to yolov8_node.cpython-310.pyc\n'}
+[1.464134] (yolov8) StdoutLine: {'line': b'running install_data\n'}
+[1.465877] (yolov8) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.469334] (yolov8) StdoutLine: {'line': b"removing '/home/guoxuan/lab/yolo_ros/install/yolov8/lib/python3.10/site-packages/yolov8-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.470422] (yolov8) StdoutLine: {'line': b'Copying ../../build/yolov8/yolov8.egg-info to /home/guoxuan/lab/yolo_ros/install/yolov8/lib/python3.10/site-packages/yolov8-0.0.0-py3.10.egg-info\n'}
+[1.472725] (yolov8) StdoutLine: {'line': b'running install_scripts\n'}
+[1.505000] (-) TimerEvent: {}
+[1.510703] (yolov8) StdoutLine: {'line': b'Installing yolov8_node script to /home/guoxuan/lab/yolo_ros/install/yolov8/lib/yolov8\n'}
+[1.512714] (yolov8) StdoutLine: {'line': b"writing list of installed files to '/home/guoxuan/lab/yolo_ros/build/yolov8/install.log'\n"}
+[1.553206] (yolov8) CommandEnded: {'returncode': 0}
+[1.571142] (msg_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.599295] (msg_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.605437] (-) TimerEvent: {}
+[1.628727] (msg_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.628881] (msg_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.628956] (msg_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.636268] (yolov8) JobEnded: {'identifier': 'yolov8', 'rc': 0}
+[1.655264] (msg_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.657402] (msg_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.669617] (msg_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.705914] (-) TimerEvent: {}
+[1.752892] (msg_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[1.756858] (msg_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/guoxuan/lab/yolo_ros/build/msg_interfaces\n'}
+[1.787924] (msg_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.799757] (msg_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.806647] (-) TimerEvent: {}
+[1.814355] (msg_interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_msg_interfaces\n'}
+[1.906866] (-) TimerEvent: {}
+[2.007223] (-) TimerEvent: {}
+[2.107976] (-) TimerEvent: {}
+[2.135057] (msg_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[2.136487] (msg_interfaces) StdoutLine: {'line': b'writing msg_interfaces.egg-info/PKG-INFO\n'}
+[2.137160] (msg_interfaces) StdoutLine: {'line': b'writing dependency_links to msg_interfaces.egg-info/dependency_links.txt\n'}
+[2.137765] (msg_interfaces) StdoutLine: {'line': b'writing top-level names to msg_interfaces.egg-info/top_level.txt\n'}
+[2.141299] (msg_interfaces) StdoutLine: {'line': b"reading manifest file 'msg_interfaces.egg-info/SOURCES.txt'\n"}
+[2.142636] (msg_interfaces) StdoutLine: {'line': b"writing manifest file 'msg_interfaces.egg-info/SOURCES.txt'\n"}
+[2.173491] (msg_interfaces) StdoutLine: {'line': b'[  5%] Built target msg_interfaces__cpp\n'}
+[2.184846] (msg_interfaces) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.187620] (msg_interfaces) StdoutLine: {'line': b'[  7%] Built target ament_cmake_python_build_msg_interfaces_egg\n'}
+[2.191632] (msg_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target msg_interfaces__rosidl_generator_c\x1b[0m\n'}
+[2.192009] (msg_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.202881] (msg_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.208134] (-) TimerEvent: {}
+[2.210150] (msg_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/bounding_box__functions.c.o\x1b[0m\n'}
+[2.308295] (-) TimerEvent: {}
+[2.334638] (msg_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/bounding_boxes__functions.c.o\x1b[0m\n'}
+[2.388057] (msg_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libmsg_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[2.408403] (-) TimerEvent: {}
+[2.437578] (msg_interfaces) StdoutLine: {'line': b'[ 20%] Built target msg_interfaces__rosidl_generator_c\n'}
+[2.452507] (msg_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.484693] (msg_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target msg_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[2.505408] (msg_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_interfaces/msg/bounding_box__type_support.cpp.o\x1b[0m\n'}
+[2.508591] (-) TimerEvent: {}
+[2.595229] (msg_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target msg_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[2.608733] (-) TimerEvent: {}
+[2.612794] (msg_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msg_interfaces/msg/detail/bounding_box__type_support.cpp.o\x1b[0m\n'}
+[2.616498] (msg_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target msg_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[2.647617] (msg_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msg_interfaces/msg/detail/dds_fastrtps/bounding_box__type_support.cpp.o\x1b[0m\n'}
+[2.708872] (-) TimerEvent: {}
+[2.809533] (-) TimerEvent: {}
+[2.825578] (msg_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target msg_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[2.845245] (msg_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_interfaces/msg/detail/bounding_box__type_support_c.cpp.o\x1b[0m\n'}
+[2.909741] (-) TimerEvent: {}
+[2.972373] (msg_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_interfaces/msg/bounding_boxes__type_support.cpp.o\x1b[0m\n'}
+[3.012847] (-) TimerEvent: {}
+[3.113417] (-) TimerEvent: {}
+[3.193939] (msg_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msg_interfaces/msg/detail/bounding_boxes__type_support.cpp.o\x1b[0m\n'}
+[3.213554] (-) TimerEvent: {}
+[3.229024] (msg_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msg_interfaces/msg/detail/dds_fastrtps/bounding_boxes__type_support.cpp.o\x1b[0m\n'}
+[3.268111] (msg_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_interfaces/msg/detail/bounding_boxes__type_support_c.cpp.o\x1b[0m\n'}
+[3.314021] (-) TimerEvent: {}
+[3.334614] (msg_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking CXX shared library libmsg_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[3.386355] (msg_interfaces) StdoutLine: {'line': b'[ 46%] Built target msg_interfaces__rosidl_typesupport_cpp\n'}
+[3.397336] (msg_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[3.414146] (-) TimerEvent: {}
+[3.514550] (-) TimerEvent: {}
+[3.615044] (-) TimerEvent: {}
+[3.686555] (msg_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libmsg_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[3.715233] (-) TimerEvent: {}
+[3.772068] (msg_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libmsg_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[3.789855] (msg_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX shared library libmsg_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[3.790480] (msg_interfaces) StdoutLine: {'line': b'[ 56%] Built target msg_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[3.801722] (msg_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.801910] (msg_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target msg_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[3.815414] (-) TimerEvent: {}
+[3.826169] (msg_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_interfaces/msg/detail/bounding_box__type_support.c.o\x1b[0m\n'}
+[3.872968] (msg_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding C object CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_interfaces/msg/detail/bounding_boxes__type_support.c.o\x1b[0m\n'}
+[3.890605] (msg_interfaces) StdoutLine: {'line': b'[ 64%] Built target msg_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[3.905042] (msg_interfaces) StdoutLine: {'line': b'[ 64%] Built target msg_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[3.915584] (-) TimerEvent: {}
+[3.922392] (msg_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking C shared library libmsg_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[3.955306] (msg_interfaces) StdoutLine: {'line': b'[ 66%] Built target msg_interfaces__rosidl_typesupport_introspection_c\n'}
+[4.015781] (-) TimerEvent: {}
+[4.097120] (msg_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target msg_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[4.109447] (msg_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_interfaces/msg/bounding_box__type_support.cpp.o\x1b[0m\n'}
+[4.109772] (msg_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_interfaces/msg/bounding_boxes__type_support.cpp.o\x1b[0m\n'}
+[4.115973] (-) TimerEvent: {}
+[4.142051] (msg_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libmsg_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[4.186701] (msg_interfaces) StdoutLine: {'line': b'[ 74%] Built target msg_interfaces__rosidl_typesupport_c\n'}
+[4.209365] (msg_interfaces) StdoutLine: {'line': b'[ 74%] Built target msg_interfaces\n'}
+[4.216177] (-) TimerEvent: {}
+[4.231333] (msg_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[4.316614] (-) TimerEvent: {}
+[4.417144] (-) TimerEvent: {}
+[4.518195] (-) TimerEvent: {}
+[4.618737] (-) TimerEvent: {}
+[4.672057] (msg_interfaces) StdoutLine: {'line': b'[ 76%] Built target msg_interfaces__py\n'}
+[4.685353] (msg_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target msg_interfaces__rosidl_generator_py\x1b[0m\n'}
+[4.708633] (msg_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/msg_interfaces__rosidl_generator_py.dir/rosidl_generator_py/msg_interfaces/msg/_bounding_boxes_s.c.o\x1b[0m\n'}
+[4.709002] (msg_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/msg_interfaces__rosidl_generator_py.dir/rosidl_generator_py/msg_interfaces/msg/_bounding_box_s.c.o\x1b[0m\n'}
+[4.719217] (-) TimerEvent: {}
+[4.820034] (-) TimerEvent: {}
+[4.895958] (msg_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/msg_interfaces/libmsg_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[4.920201] (-) TimerEvent: {}
+[4.941232] (msg_interfaces) StdoutLine: {'line': b'[ 84%] Built target msg_interfaces__rosidl_generator_py\n'}
+[4.953326] (msg_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target msg_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[4.953517] (msg_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target msg_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[4.954807] (msg_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target msg_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[4.968636] (msg_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[4.969230] (msg_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[4.970012] (msg_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/msg_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[5.020419] (-) TimerEvent: {}
+[5.069025] (msg_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/msg_interfaces/msg_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.070390] (msg_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/msg_interfaces/msg_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.070947] (msg_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/msg_interfaces/msg_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.108626] (msg_interfaces) StdoutLine: {'line': b'[100%] Built target msg_interfaces__rosidl_typesupport_c__pyext\n'}
+[5.110116] (msg_interfaces) StdoutLine: {'line': b'[100%] Built target msg_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[5.115702] (msg_interfaces) StdoutLine: {'line': b'[100%] Built target msg_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[5.120502] (-) TimerEvent: {}
+[5.128574] (msg_interfaces) CommandEnded: {'returncode': 0}
+[5.215208] (msg_interfaces) JobProgress: {'identifier': 'msg_interfaces', 'progress': 'install'}
+[5.220680] (-) TimerEvent: {}
+[5.224866] (msg_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/guoxuan/lab/yolo_ros/build/msg_interfaces'], 'cwd': '/home/guoxuan/lab/yolo_ros/build/msg_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'guoxuan'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/guoxuan/lab/yolo_ros/install/msg_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/guoxuan'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/guoxuan'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MAVEN_HOME', '/opt/maven/apache-maven-3.5.4'), ('SYSTEMD_EXEC_PID', '1738'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/guoxuan/lab/yolo_ros/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'guoxuan'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'guoxuan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/guoxuan/miniconda3/condabin:/home/guoxuan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/lib/jvm/jdk1.7.0_80/bin:/opt/maven/apache-maven-3.5.4/bin'), ('SESSION_MANAGER', 'local/guoxuan-VirtualBox:@/tmp/.ICE-unix/1716,unix/guoxuan-VirtualBox:/tmp/.ICE-unix/1716'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/febfae7c_0615_4c4c_9832_b1e51c02d944'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.K6ANF2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.105'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/guoxuan/lab/yolo_ros/install/yolov8:/home/guoxuan/lab/yolo_ros/install/msg_interfaces:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/guoxuan/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/jdk1.7.0_80'), ('PWD', '/home/guoxuan/lab/yolo_ros/build/msg_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/guoxuan/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/guoxuan/lab/yolo_ros/install/yolov8/lib/python3.10/site-packages:/home/guoxuan/lab/yolo_ros/install/msg_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/guoxuan/lab/yolo_ros/install/msg_interfaces:/home/guoxuan/lab/yolo_ros/install/yolov8:/opt/ros/humble')]), 'shell': False}
+[5.233458] (msg_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.233804] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/share/ament_index/resource_index/rosidl_interfaces/msg_interfaces\n'}
+[5.234706] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/include/msg_interfaces/msg_interfaces\n'}
+[5.235080] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg\n'}
+[5.235540] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail\n'}
+[5.236030] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/bounding_boxes__type_support.h\n'}
+[5.236317] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/bounding_box__type_support.h\n'}
+[5.236592] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/bounding_box__functions.c\n'}
+[5.236916] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/bounding_boxes__functions.c\n'}
+[5.237171] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/bounding_boxes__functions.h\n'}
+[5.237443] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/bounding_boxes__struct.h\n'}
+[5.237791] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/bounding_box__functions.h\n'}
+[5.238044] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/bounding_box__struct.h\n'}
+[5.238289] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[5.238432] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/bounding_boxes.h\n'}
+[5.238632] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/bounding_box.h\n'}
+[5.238937] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/share/msg_interfaces/environment/library_path.sh\n'}
+[5.239174] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/share/msg_interfaces/environment/library_path.dsv\n'}
+[5.239380] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/lib/libmsg_interfaces__rosidl_generator_c.so\n'}
+[5.239861] (msg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/guoxuan/lab/yolo_ros/install/msg_interfaces/lib/libmsg_interfaces__rosidl_generator_c.so" to ""\n'}
+[5.240103] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/include/msg_interfaces/msg_interfaces\n'}
+[5.240207] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg\n'}
+[5.240293] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail\n'}
+[5.240369] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/bounding_boxes__rosidl_typesupport_fastrtps_c.h\n'}
+[5.240533] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/bounding_box__rosidl_typesupport_fastrtps_c.h\n'}
+[5.240615] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[5.240792] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[5.241217] (msg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/guoxuan/lab/yolo_ros/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[5.241476] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/include/msg_interfaces/msg_interfaces\n'}
+[5.241594] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg\n'}
+[5.241705] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[5.241850] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail\n'}
+[5.241951] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/bounding_box__type_support.c\n'}
+[5.242140] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/bounding_boxes__rosidl_typesupport_introspection_c.h\n'}
+[5.242300] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/bounding_box__rosidl_typesupport_introspection_c.h\n'}
+[5.242420] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/bounding_boxes__type_support.c\n'}
+[5.242771] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[5.243111] (msg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/guoxuan/lab/yolo_ros/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[5.243342] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_c.so\n'}
+[5.243606] (msg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/guoxuan/lab/yolo_ros/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[5.243792] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/include/msg_interfaces/msg_interfaces\n'}
+[5.243883] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg\n'}
+[5.243973] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail\n'}
+[5.244090] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/bounding_box__struct.hpp\n'}
+[5.244233] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/bounding_boxes__traits.hpp\n'}
+[5.244390] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/bounding_box__builder.hpp\n'}
+[5.244527] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/bounding_boxes__struct.hpp\n'}
+[5.244714] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/bounding_boxes__builder.hpp\n'}
+[5.244864] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/bounding_box__traits.hpp\n'}
+[5.245202] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/bounding_box.hpp\n'}
+[5.245353] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/bounding_boxes.hpp\n'}
+[5.245536] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/include/msg_interfaces/msg_interfaces\n'}
+[5.245708] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg\n'}
+[5.245783] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail\n'}
+[5.245908] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/bounding_box__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.246051] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/bounding_boxes__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.246207] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/dds_fastrtps\n'}
+[5.246335] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[5.247742] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[5.248165] (msg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/guoxuan/lab/yolo_ros/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[5.248313] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/include/msg_interfaces/msg_interfaces\n'}
+[5.248392] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg\n'}
+[5.248533] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail\n'}
+[5.248613] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/bounding_boxes__type_support.cpp\n'}
+[5.248755] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/bounding_box__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.248946] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/bounding_boxes__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.249202] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/bounding_box__type_support.cpp\n'}
+[5.250589] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[5.250979] (msg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/guoxuan/lab/yolo_ros/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[5.251778] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_cpp.so\n'}
+[5.252115] (msg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/guoxuan/lab/yolo_ros/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[5.252384] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/share/msg_interfaces/environment/pythonpath.sh\n'}
+[5.252565] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/share/msg_interfaces/environment/pythonpath.dsv\n'}
+[5.252763] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces-0.0.0-py3.10.egg-info\n'}
+[5.252888] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[5.253153] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[5.253390] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[5.253527] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[5.253761] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces\n'}
+[5.253944] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/libmsg_interfaces__rosidl_generator_py.so\n'}
+[5.254170] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg\n'}
+[5.254278] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_bounding_box.py\n'}
+[5.254415] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_bounding_box_s.c\n'}
+[5.254635] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_bounding_boxes_s.c\n'}
+[5.254853] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_bounding_boxes.py\n'}
+[5.255096] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/__init__.py\n'}
+[5.255385] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[5.255537] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[5.255730] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/__init__.py\n'}
+[5.255919] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[5.256078] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.256219] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.256408] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.299675] (msg_interfaces) StdoutLine: {'line': b"Listing '/home/guoxuan/lab/yolo_ros/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces'...\n"}
+[5.299861] (msg_interfaces) StdoutLine: {'line': b"Compiling '/home/guoxuan/lab/yolo_ros/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/__init__.py'...\n"}
+[5.299935] (msg_interfaces) StdoutLine: {'line': b"Listing '/home/guoxuan/lab/yolo_ros/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg'...\n"}
+[5.300009] (msg_interfaces) StdoutLine: {'line': b"Compiling '/home/guoxuan/lab/yolo_ros/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/__init__.py'...\n"}
+[5.300072] (msg_interfaces) StdoutLine: {'line': b"Compiling '/home/guoxuan/lab/yolo_ros/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_bounding_box.py'...\n"}
+[5.300137] (msg_interfaces) StdoutLine: {'line': b"Compiling '/home/guoxuan/lab/yolo_ros/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_bounding_boxes.py'...\n"}
+[5.305031] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.305265] (msg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/guoxuan/lab/yolo_ros/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[5.305406] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.305693] (msg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/guoxuan/lab/yolo_ros/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[5.305847] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[5.306088] (msg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/guoxuan/lab/yolo_ros/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[5.306300] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/lib/libmsg_interfaces__rosidl_generator_py.so\n'}
+[5.306543] (msg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/guoxuan/lab/yolo_ros/install/msg_interfaces/lib/libmsg_interfaces__rosidl_generator_py.so" to ""\n'}
+[5.307014] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/share/msg_interfaces/msg/BoundingBox.idl\n'}
+[5.307239] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/share/msg_interfaces/msg/BoundingBoxes.idl\n'}
+[5.307357] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/share/msg_interfaces/msg/BoundingBox.msg\n'}
+[5.307500] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/share/msg_interfaces/msg/BoundingBoxes.msg\n'}
+[5.307590] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/share/ament_index/resource_index/package_run_dependencies/msg_interfaces\n'}
+[5.307998] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/share/ament_index/resource_index/parent_prefix_path/msg_interfaces\n'}
+[5.308230] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/share/msg_interfaces/environment/ament_prefix_path.sh\n'}
+[5.308442] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/share/msg_interfaces/environment/ament_prefix_path.dsv\n'}
+[5.308710] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/share/msg_interfaces/environment/path.sh\n'}
+[5.308837] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/share/msg_interfaces/environment/path.dsv\n'}
+[5.309026] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/share/msg_interfaces/local_setup.bash\n'}
+[5.309137] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/share/msg_interfaces/local_setup.sh\n'}
+[5.309199] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/share/msg_interfaces/local_setup.zsh\n'}
+[5.309258] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/share/msg_interfaces/local_setup.dsv\n'}
+[5.309316] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/share/msg_interfaces/package.dsv\n'}
+[5.309375] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/share/ament_index/resource_index/packages/msg_interfaces\n'}
+[5.309821] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_generator_cExport.cmake\n'}
+[5.309931] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[5.310332] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[5.310473] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[5.310851] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[5.310959] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[5.311341] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[5.311447] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[5.311797] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_generator_cppExport.cmake\n'}
+[5.312221] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[5.312340] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[5.312559] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[5.312671] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[5.313095] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[5.313198] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[5.313569] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_generator_pyExport.cmake\n'}
+[5.314032] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[5.314111] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/share/msg_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[5.314176] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/share/msg_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.314237] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/share/msg_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[5.314333] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/share/msg_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[5.314417] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/share/msg_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[5.314477] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/share/msg_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.314534] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/share/msg_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[5.314592] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfacesConfig.cmake\n'}
+[5.314650] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfacesConfig-version.cmake\n'}
+[5.314708] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guoxuan/lab/yolo_ros/install/msg_interfaces/share/msg_interfaces/package.xml\n'}
+[5.316959] (msg_interfaces) CommandEnded: {'returncode': 0}
+[5.321209] (-) TimerEvent: {}
+[5.421451] (-) TimerEvent: {}
+[5.522297] (-) TimerEvent: {}
+[5.599853] (msg_interfaces) JobEnded: {'identifier': 'msg_interfaces', 'rc': 0}
+[5.600877] (-) EventReactorShutdown: {}

@@ -1,0 +1,146 @@
+[0.000000] (-) TimerEvent: {}
+[0.000563] (-) JobUnselected: {'identifier': 'yolov8'}
+[0.001223] (msg_interfaces) JobQueued: {'identifier': 'msg_interfaces', 'dependencies': OrderedDict()}
+[0.001266] (msg_interfaces) JobStarted: {'identifier': 'msg_interfaces'}
+[0.072137] (msg_interfaces) JobProgress: {'identifier': 'msg_interfaces', 'progress': 'cmake'}
+[0.072434] (msg_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/guoxuan/lab/yolo_ros/src/msg_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/guoxuan/lab/yolo_ros/install/msg_interfaces'], 'cwd': '/home/guoxuan/lab/yolo_ros/build/msg_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'guoxuan'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/guoxuan'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/guoxuan/lab/yolo_ros/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MAVEN_HOME', '/opt/maven/apache-maven-3.5.4'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1685'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=09b1cc38e0023155d858edfd6576d9f8'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'guoxuan'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'guoxuan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/guoxuan/miniconda3/bin:/home/guoxuan/miniconda3/condabin:/home/guoxuan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/lib/jvm/jdk1.7.0_80/bin:/opt/maven/apache-maven-3.5.4/bin'), ('SESSION_MANAGER', 'local/guoxuan-VirtualBox:@/tmp/.ICE-unix/1685,unix/guoxuan-VirtualBox:/tmp/.ICE-unix/1685'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d7242975_5d87_4c18_9f8d_a9e615f4f344'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MV52F2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.103'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/guoxuan/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/jdk1.7.0_80'), ('PWD', '/home/guoxuan/lab/yolo_ros/build/msg_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/guoxuan/miniconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=09b1cc38e0023155d858edfd6576d9f8'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('CONDA_PREFIX', '/home/guoxuan/miniconda3'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098919] (-) TimerEvent: {}
+[0.135348] (msg_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199527] (-) TimerEvent: {}
+[0.199807] (msg_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.207174] (msg_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.283915] (msg_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.292160] (msg_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.292399] (msg_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.292840] (msg_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.295984] (msg_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.300184] (-) TimerEvent: {}
+[0.387406] (msg_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.396409] (msg_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.396719] (msg_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.397217] (msg_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.399602] (msg_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.400492] (-) TimerEvent: {}
+[0.502016] (-) TimerEvent: {}
+[0.602483] (-) TimerEvent: {}
+[0.619803] (msg_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.702989] (-) TimerEvent: {}
+[0.715442] (msg_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.802386] (msg_interfaces) StdoutLine: {'line': b'-- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[0.803072] (-) TimerEvent: {}
+[0.839979] (msg_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.845152] (msg_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.854515] (msg_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.869764] (msg_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.891455] (msg_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.903275] (-) TimerEvent: {}
+[0.959327] (msg_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.003833] (-) TimerEvent: {}
+[1.104276] (-) TimerEvent: {}
+[1.205574] (-) TimerEvent: {}
+[1.210740] (msg_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.307053] (-) TimerEvent: {}
+[1.407727] (-) TimerEvent: {}
+[1.508155] (-) TimerEvent: {}
+[1.609566] (-) TimerEvent: {}
+[1.633967] (msg_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.709681] (-) TimerEvent: {}
+[1.806622] (msg_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.810441] (-) TimerEvent: {}
+[1.829907] (msg_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /home/guoxuan/miniconda3/bin/python3 (found suitable version "3.11.5", minimum required is "3.6") \n'}
+[1.831318] (msg_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.858363] (msg_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /home/guoxuan/miniconda3/lib/libpython3.11.so (found suitable version "3.11.5", minimum required is "3.5") \n'}
+[1.858586] (msg_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /home/guoxuan/miniconda3/bin/python3\n'}
+[1.858661] (msg_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /home/guoxuan/miniconda3/include/python3.11\n'}
+[1.858726] (msg_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /home/guoxuan/miniconda3/lib/libpython3.11.so\n'}
+[1.880520] (msg_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.911274] (-) TimerEvent: {}
+[2.011635] (-) TimerEvent: {}
+[2.064129] (msg_interfaces) StdoutLine: {'line': b'-- Using numpy include directory: /home/guoxuan/miniconda3/lib/python3.11/site-packages/numpy/core/include\n'}
+[2.077890] (msg_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.078974] (msg_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.083774] (msg_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.112584] (-) TimerEvent: {}
+[2.119904] (msg_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[2.122729] (msg_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/guoxuan/lab/yolo_ros/build/msg_interfaces\n'}
+[2.131469] (msg_interfaces) CommandEnded: {'returncode': 0}
+[2.132029] (msg_interfaces) JobProgress: {'identifier': 'msg_interfaces', 'progress': 'build'}
+[2.132109] (msg_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/guoxuan/lab/yolo_ros/build/msg_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/guoxuan/lab/yolo_ros/build/msg_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'guoxuan'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/guoxuan'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/guoxuan/lab/yolo_ros/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MAVEN_HOME', '/opt/maven/apache-maven-3.5.4'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1685'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=09b1cc38e0023155d858edfd6576d9f8'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'guoxuan'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'guoxuan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/guoxuan/miniconda3/bin:/home/guoxuan/miniconda3/condabin:/home/guoxuan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/lib/jvm/jdk1.7.0_80/bin:/opt/maven/apache-maven-3.5.4/bin'), ('SESSION_MANAGER', 'local/guoxuan-VirtualBox:@/tmp/.ICE-unix/1685,unix/guoxuan-VirtualBox:/tmp/.ICE-unix/1685'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d7242975_5d87_4c18_9f8d_a9e615f4f344'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MV52F2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.103'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/guoxuan/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/jdk1.7.0_80'), ('PWD', '/home/guoxuan/lab/yolo_ros/build/msg_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/guoxuan/miniconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=09b1cc38e0023155d858edfd6576d9f8'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('CONDA_PREFIX', '/home/guoxuan/miniconda3'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.181071] (msg_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.192809] (msg_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.202728] (msg_interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_msg_interfaces\n'}
+[2.212709] (-) TimerEvent: {}
+[2.313193] (-) TimerEvent: {}
+[2.413550] (-) TimerEvent: {}
+[2.513988] (-) TimerEvent: {}
+[2.553143] (msg_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[2.555671] (msg_interfaces) StdoutLine: {'line': b'creating msg_interfaces.egg-info\n'}
+[2.555999] (msg_interfaces) StdoutLine: {'line': b'writing msg_interfaces.egg-info/PKG-INFO\n'}
+[2.556854] (msg_interfaces) StdoutLine: {'line': b'writing dependency_links to msg_interfaces.egg-info/dependency_links.txt\n'}
+[2.557240] (msg_interfaces) StdoutLine: {'line': b'writing top-level names to msg_interfaces.egg-info/top_level.txt\n'}
+[2.557692] (msg_interfaces) StdoutLine: {'line': b"writing manifest file 'msg_interfaces.egg-info/SOURCES.txt'\n"}
+[2.560717] (msg_interfaces) StdoutLine: {'line': b"reading manifest file 'msg_interfaces.egg-info/SOURCES.txt'\n"}
+[2.561331] (msg_interfaces) StdoutLine: {'line': b"writing manifest file 'msg_interfaces.egg-info/SOURCES.txt'\n"}
+[2.605356] (msg_interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_msg_interfaces_egg\n'}
+[2.615009] (-) TimerEvent: {}
+[2.629275] (msg_interfaces) StdoutLine: {'line': b'[  5%] Built target msg_interfaces__cpp\n'}
+[2.661653] (msg_interfaces) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.663552] (msg_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.673979] (msg_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.696760] (msg_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/bounding_box__functions.c.o\x1b[0m\n'}
+[2.715173] (-) TimerEvent: {}
+[2.769448] (msg_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/bounding_boxes__functions.c.o\x1b[0m\n'}
+[2.788492] (msg_interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/guoxuan/lab/yolo_ros/build/msg_interfaces/rosidl_generator_c/msg_interfaces/msg/detail/bounding_boxes__functions.h:19\x1b[m\x1b[K,\n'}
+[2.788774] (msg_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/guoxuan/lab/yolo_ros/build/msg_interfaces/rosidl_generator_c/msg_interfaces/msg/detail/bounding_boxes__functions.c:4\x1b[m\x1b[K:\n'}
+[2.788928] (msg_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/guoxuan/lab/yolo_ros/build/msg_interfaces/rosidl_generator_c/msg_interfaces/msg/detail/bounding_boxes__struct.h:23:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kmsg_interfaces/msg/detail/header__struct.h: No such file or directory\n'}
+[2.789059] (msg_interfaces) StderrLine: {'line': b'   23 | #include \x1b[01;31m\x1b[K"msg_interfaces/msg/detail/header__struct.h"\x1b[m\x1b[K\n'}
+[2.789187] (msg_interfaces) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.789346] (msg_interfaces) StderrLine: {'line': b'compilation terminated.\n'}
+[2.789760] (msg_interfaces) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/msg_interfaces__rosidl_generator_c.dir/build.make:167: CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/bounding_boxes__functions.c.o] Error 1\n'}
+[2.790122] (msg_interfaces) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:213: CMakeFiles/msg_interfaces__rosidl_generator_c.dir/all] Error 2\n'}
+[2.790302] (msg_interfaces) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[2.815654] (-) TimerEvent: {}
+[2.916170] (-) TimerEvent: {}
+[2.971391] (msg_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_interfaces/msg/bounding_box__type_support.cpp.o\x1b[0m\n'}
+[2.971800] (msg_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_interfaces/msg/bounding_boxes__type_support.cpp.o\x1b[0m\n'}
+[3.016529] (-) TimerEvent: {}
+[3.040249] (msg_interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/guoxuan/lab/yolo_ros/build/msg_interfaces/rosidl_typesupport_cpp/msg_interfaces/msg/bounding_boxes__type_support.cpp:7\x1b[m\x1b[K:\n'}
+[3.040509] (msg_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/guoxuan/lab/yolo_ros/build/msg_interfaces/rosidl_generator_cpp/msg_interfaces/msg/detail/bounding_boxes__struct.hpp:21:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kmsg_interfaces/msg/detail/header__struct.hpp: No such file or directory\n'}
+[3.040628] (msg_interfaces) StderrLine: {'line': b'   21 | #include \x1b[01;31m\x1b[K"msg_interfaces/msg/detail/header__struct.hpp"\x1b[m\x1b[K\n'}
+[3.040730] (msg_interfaces) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.040853] (msg_interfaces) StderrLine: {'line': b'compilation terminated.\n'}
+[3.042307] (msg_interfaces) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/msg_interfaces__rosidl_typesupport_cpp.dir/build.make:136: CMakeFiles/msg_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_interfaces/msg/bounding_boxes__type_support.cpp.o] Error 1\n'}
+[3.042486] (msg_interfaces) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[3.075707] (msg_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msg_interfaces/msg/detail/bounding_boxes__type_support.cpp.o\x1b[0m\n'}
+[3.076763] (msg_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msg_interfaces/msg/detail/bounding_box__type_support.cpp.o\x1b[0m\n'}
+[3.077779] (msg_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msg_interfaces/msg/detail/dds_fastrtps/bounding_box__type_support.cpp.o\x1b[0m\n'}
+[3.117051] (-) TimerEvent: {}
+[3.145873] (msg_interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/guoxuan/lab/yolo_ros/build/msg_interfaces/rosidl_typesupport_introspection_cpp/msg_interfaces/msg/detail/bounding_boxes__type_support.cpp:12\x1b[m\x1b[K:\n'}
+[3.147098] (msg_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/guoxuan/lab/yolo_ros/build/msg_interfaces/rosidl_generator_cpp/msg_interfaces/msg/detail/bounding_boxes__struct.hpp:21:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kmsg_interfaces/msg/detail/header__struct.hpp: No such file or directory\n'}
+[3.147259] (msg_interfaces) StderrLine: {'line': b'   21 | #include \x1b[01;31m\x1b[K"msg_interfaces/msg/detail/header__struct.hpp"\x1b[m\x1b[K\n'}
+[3.147404] (msg_interfaces) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.147472] (msg_interfaces) StderrLine: {'line': b'compilation terminated.\n'}
+[3.148739] (msg_interfaces) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make:144: CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msg_interfaces/msg/detail/bounding_boxes__type_support.cpp.o] Error 1\n'}
+[3.149020] (msg_interfaces) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[3.166313] (msg_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msg_interfaces/msg/detail/dds_fastrtps/bounding_boxes__type_support.cpp.o\x1b[0m\n'}
+[3.217219] (-) TimerEvent: {}
+[3.231044] (msg_interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/guoxuan/lab/yolo_ros/build/msg_interfaces/rosidl_typesupport_fastrtps_cpp/msg_interfaces/msg/detail/bounding_boxes__rosidl_typesupport_fastrtps_cpp.hpp:11\x1b[m\x1b[K,\n'}
+[3.231361] (msg_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/guoxuan/lab/yolo_ros/build/msg_interfaces/rosidl_typesupport_fastrtps_cpp/msg_interfaces/msg/detail/dds_fastrtps/bounding_boxes__type_support.cpp:4\x1b[m\x1b[K:\n'}
+[3.231497] (msg_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/guoxuan/lab/yolo_ros/build/msg_interfaces/rosidl_generator_cpp/msg_interfaces/msg/detail/bounding_boxes__struct.hpp:21:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kmsg_interfaces/msg/detail/header__struct.hpp: No such file or directory\n'}
+[3.231611] (msg_interfaces) StderrLine: {'line': b'   21 | #include \x1b[01;31m\x1b[K"msg_interfaces/msg/detail/header__struct.hpp"\x1b[m\x1b[K\n'}
+[3.231720] (msg_interfaces) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.231869] (msg_interfaces) StderrLine: {'line': b'compilation terminated.\n'}
+[3.233865] (msg_interfaces) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make:144: CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msg_interfaces/msg/detail/dds_fastrtps/bounding_boxes__type_support.cpp.o] Error 1\n'}
+[3.234052] (msg_interfaces) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[3.317501] (-) TimerEvent: {}
+[3.334730] (msg_interfaces) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:395: CMakeFiles/msg_interfaces__rosidl_typesupport_cpp.dir/all] Error 2\n'}
+[3.417743] (-) TimerEvent: {}
+[3.518287] (-) TimerEvent: {}
+[3.570876] (msg_interfaces) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:369: CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_cpp.dir/all] Error 2\n'}
+[3.618920] (-) TimerEvent: {}
+[3.633176] (msg_interfaces) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:291: CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2\n'}
+[3.633362] (msg_interfaces) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[3.635236] (msg_interfaces) CommandEnded: {'returncode': 2}
+[3.719503] (-) TimerEvent: {}
+[3.804469] (msg_interfaces) JobEnded: {'identifier': 'msg_interfaces', 'rc': 2}
+[3.817745] (-) EventReactorShutdown: {}

@@ -1,0 +1,35 @@
+[0.112s] Invoking command in '/home/guoxuan/lab/yolo_ros/build/msg_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/guoxuan/lab/yolo_ros/build/msg_interfaces -- -j4 -l4
+[0.194s] [35m[1mConsolidate compiler generated dependencies of target msg_interfaces__rosidl_generator_c[0m
+[0.221s] [  2%] Built target msg_interfaces__cpp
+[0.233s] [ 12%] Built target msg_interfaces__rosidl_generator_c
+[0.233s] [ 12%] Built target ament_cmake_python_copy_msg_interfaces
+[0.245s] [35m[1mConsolidate compiler generated dependencies of target msg_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[0.249s] [35m[1mConsolidate compiler generated dependencies of target msg_interfaces__rosidl_typesupport_cpp[0m
+[0.254s] [35m[1mConsolidate compiler generated dependencies of target msg_interfaces__rosidl_typesupport_introspection_cpp[0m
+[0.270s] [ 23%] Built target msg_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.275s] [ 33%] Built target msg_interfaces__rosidl_typesupport_cpp
+[0.281s] [ 43%] Built target msg_interfaces__rosidl_typesupport_introspection_cpp
+[0.294s] [35m[1mConsolidate compiler generated dependencies of target msg_interfaces__rosidl_typesupport_introspection_c[0m
+[0.299s] [35m[1mConsolidate compiler generated dependencies of target msg_interfaces__rosidl_typesupport_c[0m
+[0.302s] [35m[1mConsolidate compiler generated dependencies of target msg_interfaces__rosidl_typesupport_fastrtps_c[0m
+[0.313s] [ 53%] Built target msg_interfaces__rosidl_typesupport_introspection_c
+[0.318s] [ 64%] Built target msg_interfaces__rosidl_typesupport_c
+[0.319s] [ 74%] Built target msg_interfaces__rosidl_typesupport_fastrtps_c
+[0.352s] [ 74%] Built target msg_interfaces
+[0.387s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[0.456s] Traceback (most recent call last):
+[0.456s]   File "/opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py", line 8, in <module>
+[0.456s]     from rosidl_generator_py import generate_py
+[0.456s] ImportError: cannot import name 'generate_py' from 'rosidl_generator_py' (/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/__init__.py)
+[0.465s] gmake[2]: *** [msg_interfaces__py/CMakeFiles/msg_interfaces__py.dir/build.make:94: rosidl_generator_py/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c] Error 1
+[0.465s] gmake[1]: *** [CMakeFiles/Makefile2:590: msg_interfaces__py/CMakeFiles/msg_interfaces__py.dir/all] Error 2
+[0.465s] gmake[1]: *** Waiting for unfinished jobs....
+[0.626s] running egg_info
+[0.627s] writing msg_interfaces.egg-info/PKG-INFO
+[0.628s] writing dependency_links to msg_interfaces.egg-info/dependency_links.txt
+[0.628s] writing top-level names to msg_interfaces.egg-info/top_level.txt
+[0.639s] reading manifest file 'msg_interfaces.egg-info/SOURCES.txt'
+[0.639s] writing manifest file 'msg_interfaces.egg-info/SOURCES.txt'
+[0.673s] [ 76%] Built target ament_cmake_python_build_msg_interfaces_egg
+[0.675s] gmake: *** [Makefile:146: all] Error 2
+[0.677s] Invoked command in '/home/guoxuan/lab/yolo_ros/build/msg_interfaces' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/guoxuan/lab/yolo_ros/build/msg_interfaces -- -j4 -l4

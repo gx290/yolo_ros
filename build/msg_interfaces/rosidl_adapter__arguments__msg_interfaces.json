@@ -1,0 +1,7 @@
+{
+  "package_name": "msg_interfaces",
+  "non_idl_tuples": [
+    "/home/guoxuan/lab/yolo_ros/src/msg_interfaces:msg/BoundingBox.msg",
+    "/home/guoxuan/lab/yolo_ros/src/msg_interfaces:msg/BoundingBoxes.msg"
+  ]
+}
